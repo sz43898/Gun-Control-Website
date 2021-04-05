@@ -1,0 +1,145 @@
+/*add color to background*/
+
+body {
+  background-color: #ffad99;
+  padding: 50px
+  
+}
+
+.listnav {
+  /*lakes away list bullets*/
+  list-style-type: none;
+ 
+  margin: 0;
+  padding: 0;
+  background-color: #f7a28c;
+
+  top: 15px;
+  width: 100%;
+  display: inline-block;
+  min-width: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+/*maked nav in one line*/
+.linknav{
+  float: center;
+  display: inline-flex;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:25px;
+ 
+}
+/*hover over link creates backgroung color change*/
+.linknav:hover{
+  background-color: #ffad99;
+}
+/*instead of h1 tag*/
+.titleword{
+  font-size: 2em;
+  font-weight: bolder;
+}
+/*
+.video{
+  padding:5px;
+  width:600px;
+  max-width: 100%;
+  border: 2px solid #f7a28c;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.captionvid{
+  padding:5px;
+  width:650px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #f7a28c;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+*/
+
+.flexvideo{
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.video {
+  flex: 1;
+  
+  justify-content: center;
+  align-items: center
+  
+}  
+
+.video:first-child {
+  margin-right: 20px;
+  
+} 
+.video.vid {
+  
+  margin: 20px;
+  
+}
+.video.caption{
+  font-size: 19px;
+}
+/*style sectoin heders in climate info*/
+.section{
+  font-size: 20px;
+  font-weight: bold;
+}
+.nextlink{
+  font-size: 22px;
+  font-weight:bold;
+  text-align: center;
+}
+
+/*tab indent thing*/
+.tab{
+text-indent: 50px;
+font-size: 20px;
+}
+.tabtwo{
+text-indent: 25px;
+font-size: 20px;
+}
+.listtext{
+  font-size:20px;
+}
+/*img float in info/home*/
+.imgleft{
+float: left;
+padding: 15px;
+padding-right: 20px;
+width:500px;
+max-width: 90%;
+height: auto;
+border: 2px solid #fcae9b;
+border-radius: 4px;
+}
+.imgright{
+float: right;
+padding: 15px;
+padding-left: 20px;
+width:500px;
+max-width: 90%;
+height: auto;
+border: 2px solid #fcae9b;
+border-radius: 4px;
+}
